@@ -2,12 +2,15 @@ package com.jadper.team.model;
 
 import javax.persistence.*;
 
+
 @Entity
 @Table(name = "team")
 public class Team {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)    
     private int id;
+
+    @Column(nullable=false)
     private String name;
 
     public Team() {
