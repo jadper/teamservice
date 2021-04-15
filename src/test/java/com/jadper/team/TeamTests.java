@@ -3,17 +3,10 @@ package com.jadper.team;
 import com.jadper.team.model.Team;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class TeamApplicationTests {
 
-	/*
-	@Test
-	void contextLoads() {*
-	}
-	*/
-	
+class TeamTests {
+
 	@Test
 	void createTeamAndSetName() {
 		String teamName = "Boll Noll Koll";
