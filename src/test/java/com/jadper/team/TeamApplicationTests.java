@@ -8,10 +8,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class TeamApplicationTests {
 
+	/*
 	@Test
-	void contextLoads() {
-
+	void contextLoads() {*
 	}
+	*/
+	
 	@Test
 	void createTeamAndSetName() {
 		String teamName = "Boll Noll Koll";
